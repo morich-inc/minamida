@@ -12,11 +12,13 @@
         .bg-accent-color { background-color: #1a365d; }
         .corporate-overview { background-color: #f0f4f8; border-radius: 8px; padding: 20px; }
         .highlight-box { border: 2px solid #1a365d; background-color: #f8fafc; border-radius: 8px; padding: 20px; position: relative; }
-        .anchor-nav { position: sticky; top: 0; z-index: 50; background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(4px); border-bottom: 1px solid #ddd; }
+        .anchor-nav { position: sticky; top: 0; z-index: 50; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(4px); border-bottom: 1px solid #ddd; }
         table { width: 100%; border-collapse: collapse; }
         th, td { text-align: left; padding: 12px; border-bottom: 1px solid #d1d5db; }
         th { width: 30%; color: #4b5563; font-weight: bold; }
         .job-section { background-color: #ffffff; border-left: 4px solid #1a365d; padding: 20px; margin-top: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .link-button { background-color: #f3f4f6; color: #1f2937; padding: 8px 16px; rounded-radius: 4px; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 1px solid #d1d5db; display: inline-block; }
+        .link-button:hover { background-color: #e5e7eb; border-color: #9ca3af; }
     </style>
 </head>
 <body class="pb-20">
@@ -34,7 +36,7 @@
     </header>
 
     <nav class="anchor-nav py-3">
-        <div class="max-w-5xl mx-auto px-4 flex flex-wrap gap-4">
+        <div class="max-w-5xl mx-auto px-4 flex flex-wrap gap-x-6 gap-y-2">
             <a href="#company1" class="text-sm font-bold hover:text-blue-700">1. DoCLASSE</a>
             <a href="#company2" class="text-sm font-bold hover:text-blue-700">2. アスエネ</a>
             <a href="#company3" class="text-sm font-bold hover:text-blue-700">3. アライドアーキテクツ</a>
@@ -46,11 +48,11 @@
 
     <main class="max-w-5xl mx-auto px-4 mt-10 space-y-24">
 
-        <section id="company1" class="scroll-mt-20">
+        <section id="company1" class="scroll-mt-24">
             <div class="mb-4 flex gap-2">
                 <span class="bg-gray-800 text-white text-xs px-3 py-1 rounded-full font-bold">人事責任者候補</span>
             </div>
-            <h2 class="text-3xl md:text-4xl font-black mb-6 uppercase">株式会社DoCLASSE（ドゥクラッセ）</h2>
+            <h2 class="text-3xl md:text-4xl font-black mb-6">株式会社DoCLASSE（ドゥクラッセ）</h2>
             
             <div class="corporate-overview mb-8">
                 <p class="text-sm font-bold text-gray-600 mb-2 uppercase tracking-widest">Corporate Overview</p>
@@ -62,7 +64,7 @@
                 </table>
             </div>
 
-            <div class="prose max-w-none mb-8 whitespace-pre-wrap text-gray-700 leading-relaxed">2007年に創業、洋服・服飾雑貨の企画・販売を行うアパレルメーカーです。「楽に着られて、ワンサイズ細く見える服作り」をモットーとして、ミドルエイジの方をファッションの力で応援したいという思いで事業を展開しています。
+            <div class="prose max-w-none mb-8 whitespace-pre-wrap text-gray-700 leading-relaxed">2007年に創業、洋服・服飾雑貨の企画・販売を行うアパレルメーカーです。「楽に着られて、ワンサイズ細く見える服作り」をモットーとして、ミドルエイジの方をファッション의力で応援したいという思いで事業を展開しています。
 蓄積している女性のボディデータをもとにサンプルを作成。その後、延べ30人以上による試着を行い、修正を重ねて洋服を完成させています。ワンシーズンにリリースする色柄はおよそ100種類。デザインや素材、品質、コストパフォーマンスを追求し、リリース直前まで改善を繰り返しています。
 
 強みはダイレクトマーケティングを通してデータを蓄積し、独自のロジックでデータ分析を行い売上につなげていることです。加えて、社内には企画や販売のほか、カタログ制作、コールセンターなどの各部門が揃っており、それぞれの部門が連携しながら会社がやりたいことを実現しています。
@@ -82,21 +84,23 @@
 
             <div class="job-section mb-8">
                 <h3 class="text-xl font-bold mb-4">JOB：コーポレート_人事責任者</h3>
-                <p class="font-bold text-gray-700 mb-2">【業務内容】</p>
-                <div class="text-sm text-gray-600 whitespace-pre-wrap">DoCLASSEの次の10年をつくる経営基盤を築くミッション。
-・900名規模の組織を支える人事基盤の再構築
+                <div class="text-sm text-gray-600 whitespace-pre-wrap">創業20年を迎え、次の10年で売上1000億円規模への成長を目指す第二創業フェーズ。
+・900名規模の組織を支える安心・公正・透明な人事基盤の再構築
 ・次世代リーダー育成（サクセッションプラン）
 ・経営の一員として組織戦略をリード</div>
             </div>
 
-            <div class="flex flex-wrap gap-4">
-                <a href="https://www.doclasse.com/company" target="_blank" class="bg-gray-200 hover:bg-gray-300 text-gray-800 py-2 px-4 rounded text-sm font-bold transition">企業公式サイト</a>
+            <div class="space-y-3">
+                <p class="text-sm font-bold text-gray-500 uppercase tracking-tighter">関連リンク・資料</p>
+                <div class="flex flex-wrap gap-3">
+                    <a href="https://www.doclasse.com/company" target="_blank" class="link-button">企業サイト・会社概要</a>
+                </div>
             </div>
         </section>
 
         <hr class="border-gray-200">
 
-        <section id="company2" class="scroll-mt-20">
+        <section id="company2" class="scroll-mt-24">
             <div class="mb-4 flex gap-2">
                 <span class="bg-red-600 text-white text-xs px-3 py-1 rounded-full font-bold">IPO準備中</span>
                 <span class="bg-gray-800 text-white text-xs px-3 py-1 rounded-full font-bold">HRマネージャー候補</span>
@@ -109,42 +113,47 @@
                     <tr><th>本社住所</th><td>東京都港区虎ノ門1-10-5 KDX虎ノ門一丁目ビル WeWork 4階</td></tr>
                     <tr><th>設立</th><td>2019年</td></tr>
                     <tr><th>従業員数</th><td>約280名（連結400名超）</td></tr>
-                    <tr><th>上場区分</th><td>未上場（IPO準備中）</td></tr>
+                    <tr><th>上場区分</th><td>未上場（N-1）</td></tr>
                 </table>
             </div>
 
-            <div class="prose max-w-none mb-8 whitespace-pre-wrap text-gray-700 leading-relaxed">気候変動問題解決に取り組むクライメートテック企業です。CO2排出量見える化クラウドサービス「ASUENE」など脱炭素・ESG領域のマルチプロダクトを提供しています。累計資金調達額は115億円に達し、世界6ヶ国に拠点を持ちグローバル展開を加速させています。</div>
+            <div class="prose max-w-none mb-8 whitespace-pre-wrap text-gray-700 leading-relaxed">「次世代によりよい世界を」をミッションに2019年に創業した、気候変動問題解決に取り組むクライメートテック企業です。
+実績は圧倒的で、「ASUENE」は導入社数3年連続No.1を獲得。累計資金調達額は115億円に達し、世界6ヶ国に拠点を持ちグローバル展開を加速させています。米誌の「2025 World’s Top GreenTech Companies」に、日本のCO2排出量見える化クラウド企業で唯一選出されるなど、世界的な評価も高い成長企業です。</div>
 
             <div class="highlight-box mb-8">
                 <h3 class="font-bold accent-color mb-2">注目トピック</h3>
                 <ul class="text-sm list-disc ml-5 space-y-1">
-                    <li><strong>圧倒的な成長資金：</strong> 累計115億円の調達。メガバンク事業のM&Aも成功。</li>
-                    <li><strong>グローバル展開：</strong> 6カ国拠点。世界規模のルールメイクに関わる優位性。</li>
-                    <li><strong>市場No.1の実績：</strong> 3年連続導入社数No.1の盤石な地位。</li>
+                    <li><strong>圧倒的な成長資金と財務基盤：</strong> 累計調達115億円。メガバンクのプロダクト承継など異例のM&A実績。</li>
+                    <li><strong>グローバル展開：</strong> 東京、シンガポール、LA、ロンドン、バンコク、セブに拠点を展開。</li>
+                    <li><strong>市場No.1の実績：</strong> 業界内での地位を確立し、時価総額一兆円を目指すフェーズ。</li>
                 </ul>
             </div>
 
             <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 mb-8">
                 <h3 class="font-bold border-b pb-2 mb-4">代表プロフィール</h3>
                 <p class="font-bold mb-2">Founder 代表取締役CEO　西和田 浩平 氏</p>
-                <p class="text-sm text-gray-600 leading-relaxed">慶應義塾大学卒業、三井物産にて再生可能エネルギーの新規事業投資・M&Aを担当。2019年アスエネを創業。Forbes Japan Rising Star Award受賞。</p>
+                <p class="text-sm text-gray-600 leading-relaxed">慶應義塾大学卒業、三井物産にて新規事業投資・M&Aを担当。2019年創業。Forbes Japan Rising Star Award受賞。2025年12月に初の著書を出版。</p>
             </div>
 
             <div class="job-section mb-8">
                 <h3 class="text-xl font-bold mb-4">JOB：CEO室 - HRマネージャー候補</h3>
-                <div class="text-sm text-gray-600 whitespace-pre-wrap">採用領域を起点に、組織戦略全体を見据えたHR領域のリード。経営陣と同じ視点で事業のレバレッジとなる組織づくりを担います。</div>
+                <div class="text-sm text-gray-600">経営陣と同じ視点で「どんな組織をつくるべきか」を考え、採用戦略の上流設計から戦術リードまでを担う重要ポジションです。</div>
             </div>
 
-            <div class="flex flex-wrap gap-4">
-                <a href="https://corp.asuene.com/company" target="_blank" class="bg-gray-200 hover:bg-gray-300 text-gray-800 py-2 px-4 rounded text-sm font-bold transition">企業公式サイト</a>
+            <div class="space-y-3">
+                <p class="text-sm font-bold text-gray-500 uppercase tracking-tighter">関連リンク・資料</p>
+                <div class="flex flex-wrap gap-3">
+                    <a href="https://corp.asuene.com/company" target="_blank" class="link-button">企業サイト・会社概要</a>
+                    <a href="https://prtimes.jp/main/html/rd/p/000000598.000058538.html" target="_blank" class="link-button">シリーズCファイナルクローズ・累計115億円調達記事</a>
+                </div>
             </div>
         </section>
 
         <hr class="border-gray-200">
 
-        <section id="company3" class="scroll-mt-20">
+        <section id="company3" class="scroll-mt-24">
             <div class="mb-4 flex gap-2">
-                <span class="bg-blue-600 text-white text-xs px-3 py-1 rounded-full font-bold">東証グロース上場</span>
+                <span class="bg-blue-600 text-white text-xs px-3 py-1 rounded-full font-bold">東証グロース</span>
                 <span class="bg-gray-800 text-white text-xs px-3 py-1 rounded-full font-bold">将来の人事部長候補</span>
             </div>
             <h2 class="text-3xl md:text-4xl font-black mb-6">アライドアーキテクツ株式会社</h2>
@@ -158,73 +167,86 @@
                 </table>
             </div>
 
-            <div class="prose max-w-none mb-8 whitespace-pre-wrap text-gray-700 leading-relaxed">SNSマーケティング支援を行う企業。創業20年目を迎え「第2創業期」として、AIによるVOC解析を強みにマーケティングパートナーへと進化中です。現在は内部統制の強化と事業・組織の再構築を進める変革期にあります。</div>
+            <div class="prose max-w-none mb-8 whitespace-pre-wrap text-gray-700 leading-relaxed">SNSマーケティングを起点としたデジタルマーケティング支援を行う企業です。創業20年目を迎え、従来のSaaS単品提供から、AIで生活者の声を解析し戦略設計から実行まで支援する「マーケティングパートナー」へと進化中です。
+現在は事業部統合の真っ只中にあり、そのカオスを仕組みに変えていくフェーズ。ガバナンスと内部統制の強化にも注力しています。</div>
 
             <div class="highlight-box mb-8">
                 <h3 class="font-bold accent-color mb-2">注目トピック</h3>
-                <p class="text-sm leading-relaxed">「再生と進化」の最中にある企業です。2025年3月に就任する新社長の右腕として、人事面から上場企業のガバナンス強化と事業成長を両立させる、非常に難易度が高くやりがいのあるフェーズです。</p>
+                <p class="text-sm leading-relaxed">2025年3月に就任する新社長・村岡氏と共に、事業と組織の再構築を進める変革期です。変化の中心で事業づくりに関われる、挑戦機会の大きいフェーズです。</p>
             </div>
 
             <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 mb-8">
                 <h3 class="font-bold border-b pb-2 mb-4">代表プロフィール</h3>
                 <p class="font-bold mb-2">取締役社長（2025年3月就任） 村岡 弥真人 氏</p>
-                <p class="text-sm text-gray-600 leading-relaxed">2012年入社。SNS広告特化の広告代理事業を立ち上げ、自社最大の事業へ拡大。30代での社長就任となります。</p>
+                <p class="text-sm text-gray-600 leading-relaxed">AGCを経て2012年入社。広告代理事業を最大規模まで拡大。2021年取締役就任を経て、2025年3月に社長就任予定。</p>
             </div>
 
             <div class="job-section mb-8">
                 <h3 class="text-xl font-bold mb-4">JOB：人事マネージャー候補（将来の人事部長）</h3>
-                <div class="text-sm text-gray-600">中途採用の立て直しとチームマネジメントから開始。将来的には人事制度・労務を含めた人事部門全体の統括を期待されています。</div>
+                <div class="text-sm text-gray-600">採用実務の立て直しからスタートし、将来的には制度設計や労務まで管掌する「人事部長」への昇格を前提とした採用です。</div>
             </div>
 
-            <div class="flex flex-wrap gap-4">
-                <a href="https://www.aainc.co.jp/" target="_blank" class="bg-gray-200 hover:bg-gray-300 text-gray-800 py-2 px-4 rounded text-sm font-bold transition">企業公式サイト</a>
+            <div class="space-y-3">
+                <p class="text-sm font-bold text-gray-500 uppercase tracking-tighter">関連リンク・資料</p>
+                <div class="flex flex-wrap gap-3">
+                    <a href="https://www.aainc.co.jp/" target="_blank" class="link-button">企業サイト・会社概要</a>
+                    <a href="https://service.aainc.co.jp/?_ga=2.208409298.1591721656.1597625786-616098341.1559106431" target="_blank" class="link-button">事業詳細</a>
+                    <a href="https://onl.bz/qUUna9T" target="_blank" class="link-button">導入事例</a>
+                </div>
             </div>
         </section>
 
         <hr class="border-gray-200">
 
-        <section id="company4" class="scroll-mt-20">
+        <section id="company4" class="scroll-mt-24">
             <div class="mb-4 flex gap-2">
                 <span class="bg-green-600 text-white text-xs px-3 py-1 rounded-full font-bold">エージェント登録数日本No.1</span>
                 <span class="bg-gray-800 text-white text-xs px-3 py-1 rounded-full font-bold">CHRO候補</span>
             </div>
-            <h2 class="text-3xl md:text-4xl font-black mb-6 uppercase">株式会社JoBins（ジョビンズ）</h2>
+            <h2 class="text-3xl md:text-4xl font-black mb-6">株式会社JoBins（ジョビンズ）</h2>
             
             <div class="corporate-overview mb-8">
                 <p class="text-sm font-bold text-gray-600 mb-2 uppercase tracking-widest">Corporate Overview</p>
                 <table>
                     <tr><th>本社住所</th><td>大阪市西区北堀江1-19-8 四ツ橋KMビル3F</td></tr>
+                    <tr><th>設立</th><td>2012年</td></tr>
                     <tr><th>従業員数</th><td>約100名（5年で1000名へ）</td></tr>
                     <tr><th>上場区分</th><td>未上場</td></tr>
                 </table>
             </div>
 
-            <div class="prose max-w-none mb-8 whitespace-pre-wrap text-gray-700 leading-relaxed">エージェント同士をつなぐネットワークプラットフォームを運営。前年比800%成長という急成長を遂げており、登録エージェント数は日本No.1。5年で1000名規模への拡大と「世界一」を目指す壮大なビジョンを掲げています。</div>
+            <div class="prose max-w-none mb-8 whitespace-pre-wrap text-gray-700 leading-relaxed">「chance for All」を掲げ、エージェント同士を繋ぐネットワークプラットフォームを運営。直近2年の売上は年300%増、転職実績ベースでは前年比800%成長という驚異的な伸びを見せています。
+独自のモデルにより国内No.1のポジションを確立。次は「世界一」を目指し、5年で1000名規模への拡大を計画しています。</div>
 
             <div class="highlight-box mb-8">
                 <h3 class="font-bold accent-color mb-2">注目トピック</h3>
-                <p class="text-sm leading-relaxed">前年比800%という非連続な成長フェーズ。100人から1000人への組織拡大をCHROとして牽引する経験は極めて稀有です。東京拠点の立ち上げを含め、日本発の世界標準プラットフォーム創りに経営幹部として参画できます。</p>
+                <p class="text-sm leading-relaxed">急成長フェーズを経営幹部として牽引する経験が得られます。現在は東京拠点の立ち上げという極めて重要なフェーズ。日本発の世界標準プラットフォームを創り上げていく当事者になれます。</p>
             </div>
 
             <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 mb-8">
                 <h3 class="font-bold border-b pb-2 mb-4">代表プロフィール</h3>
                 <p class="font-bold mb-2">代表取締役　徳永 勇治 氏</p>
-                <p class="text-sm text-gray-600 leading-relaxed">Bank of China、リクルートを経て2012年創業。圧倒的なスピード感と世界一へのこだわりを持つ経営者です。</p>
+                <p class="text-sm text-gray-600 leading-relaxed">中国出身、11歳で来日。リクルートを経て2012年創業。意思決定から成長まで「フルスピード」を大切にする経営者です。</p>
             </div>
 
             <div class="job-section mb-8">
                 <h3 class="text-xl font-bold mb-4">JOB：CHRO（東京拠点立ち上げ）</h3>
-                <div class="text-sm text-gray-600">経営ボードの一員として、事業戦略と連動した人事戦略（採用・評価・育成）の策定・実行。Valueを体現する組織創りの最高責任者。</div>
+                <div class="text-sm text-gray-600">経営ボードの一員として、事業戦略と連動した人事戦略（採用・育成・評価・配置・労務）の策定と実行。Valueを体現する組織を創り上げます。</div>
             </div>
 
-            <div class="flex flex-wrap gap-4">
-                <a href="https://recruit.jobins.jp/" target="_blank" class="bg-gray-200 hover:bg-gray-300 text-gray-800 py-2 px-4 rounded text-sm font-bold transition">採用サイト</a>
+            <div class="space-y-3">
+                <p class="text-sm font-bold text-gray-500 uppercase tracking-tighter">関連リンク・資料</p>
+                <div class="flex flex-wrap gap-3">
+                    <a href="https://recruit.jobins.jp/" target="_blank" class="link-button">採用サイト</a>
+                    <a href="https://drive.google.com/file/d/1pAdqDEj07LX8Ja6maLbcVkQJvRAl0BNx/view?usp=sharing" target="_blank" class="link-button">会社説明資料</a>
+                    <a href="https://www.wantedly.com/companies/jobins/post_articles/898735" target="_blank" class="link-button">Vision/Mission/Valueについて</a>
+                </div>
             </div>
         </section>
 
         <hr class="border-gray-200">
 
-        <section id="company5" class="scroll-mt-20">
+        <section id="company5" class="scroll-mt-24">
             <div class="mb-4 flex gap-2">
                 <span class="bg-purple-600 text-white text-xs px-3 py-1 rounded-full font-bold">戦略的非公開化</span>
                 <span class="bg-gray-800 text-white text-xs px-3 py-1 rounded-full font-bold">組織開発担当</span>
@@ -240,36 +262,37 @@
                 </table>
             </div>
 
-            <div class="prose max-w-none mb-8 whitespace-pre-wrap text-gray-700 leading-relaxed">タレントマネジメントシステム「カオナビ」を提供。2025年6月、さらなる企業価値最大化のため戦略的に非公開化。5年後の再上場を目指し、マルチプロダクト化と大規模な成長投資を加速させています。</div>
+            <div class="prose max-w-none mb-8 whitespace-pre-wrap text-gray-700 leading-relaxed">タレントマネジメントシステム「カオナビ」を提供。2025年6月、米投資ファンドのカーライル・グループによる買収を経て戦略的に非公開化。
+5年後に時価総額数倍での再上場を目指す「第2創業期」です。残業ほぼゼロを徹底する生産性の高い文化の中で、マルチプロダクト戦略と大規模な成長投資を加速させています。</div>
 
             <div class="highlight-box mb-8">
                 <h3 class="font-bold accent-color mb-2">注目トピック</h3>
-                <ul class="text-sm list-disc ml-5 space-y-1">
-                    <li>★社長リレーション案件</li>
-                    <li>★平均残業時間4分、圧倒的な生産性文化</li>
-                    <li>★再上場に向けた経営レイヤー採用への注力</li>
-                </ul>
+                <p class="text-sm leading-relaxed">社長リレーション案件です。再上場に向けた経営レイヤー・リーダーシップ層の採用に注力中。タレントマネジメントを起点に、人の働き方そのものを変える挑戦をしています。</p>
             </div>
 
             <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 mb-8">
                 <h3 class="font-bold border-b pb-2 mb-4">代表プロフィール</h3>
                 <p class="font-bold mb-2">代表取締役社長　佐藤 寛之 氏</p>
-                <p class="text-sm text-gray-600 leading-relaxed">非公開化後も続投。「個の力の最大化」を掲げ、AIとデータを掛け合わせた働き方の変革を追求する経営者です。</p>
+                <p class="text-sm text-gray-600 leading-relaxed">非公開化後も舵取りを担う。個の力を最大化するという理想を掲げ、上場時ではできなかった規模の成長投資を推進しています。</p>
             </div>
 
             <div class="job-section mb-8">
                 <h3 class="text-xl font-bold mb-4">JOB：人事（組織開発担当）</h3>
-                <div class="text-sm text-gray-600">2025年11月新設の「組織開発チーム」立ち上げメンバー。全社を一つのシステムとして捉え、ビジョン実現のためのカルチャーデザインを担います。</div>
+                <div class="text-sm text-gray-600">2025年11月新設の「組織開発チーム」立ち上げ。経営・現場と伴走しながら、カルチャーデザイン、人材開発、コミュニケーション機会の提供を担います。</div>
             </div>
 
-            <div class="flex flex-wrap gap-4">
-                <a href="https://www.kaonavi.jp/" target="_blank" class="bg-gray-200 hover:bg-gray-300 text-gray-800 py-2 px-4 rounded text-sm font-bold transition">企業公式サイト</a>
+            <div class="space-y-3">
+                <p class="text-sm font-bold text-gray-500 uppercase tracking-tighter">関連リンク・資料</p>
+                <div class="flex flex-wrap gap-3">
+                    <a href="https://www.kaonavi.jp/" target="_blank" class="link-button">企業サイト・会社概要</a>
+                    <a href="https://www.businessinsider.jp/article/2506-kaonavi-s-tob/" target="_blank" class="link-button">佐藤社長インタビュー記事</a>
+                </div>
             </div>
         </section>
 
         <hr class="border-gray-200">
 
-        <section id="company6" class="scroll-mt-20">
+        <section id="company6" class="scroll-mt-24">
             <div class="mb-4 flex gap-2">
                 <span class="bg-yellow-600 text-white text-xs px-3 py-1 rounded-full font-bold">松尾研・京大発</span>
                 <span class="bg-gray-800 text-white text-xs px-3 py-1 rounded-full font-bold">人事マネージャー</span>
@@ -280,31 +303,36 @@
                 <p class="text-sm font-bold text-gray-600 mb-2 uppercase tracking-widest">Corporate Overview</p>
                 <table>
                     <tr><th>本社住所</th><td>東京都千代田区東神田1丁目11-5 石田ビル東神田3F</td></tr>
-                    <tr><th>従業員数</th><td>約150名（業務委託等含む）</td></tr>
+                    <tr><th>設立</th><td>2021年</td></tr>
+                    <tr><th>従業員数</th><td>約150名（業務委託含）</td></tr>
                     <tr><th>上場区分</th><td>未上場（2029年上場目標）</td></tr>
                 </table>
             </div>
 
-            <div class="prose max-w-none mb-8 whitespace-pre-wrap text-gray-700 leading-relaxed">製造業特化の生成AI活用スタートアップ。学術的技術力を背景に、AIによる熟練工の暗黙知の言語化などを支援。自社収益で黒字経営を続けつつ、2029年の上場を見据えた組織基盤強化を急いでいます。</div>
+            <div class="prose max-w-none mb-8 whitespace-pre-wrap text-gray-700 leading-relaxed">製造業特化の生成AI活用スタートアップ。松尾研・京大発の学術基盤と技術力を持ち、オーダーメイドAIの導入・運用を一気通貫で支援。
+自社収益での黒字経営を続けつつ、2029年の上場を見据えて組織基盤を強化中。約150名の組織をフルリモートで運営するプロフェッショナル集団です。</div>
 
             <div class="highlight-box mb-8">
                 <h3 class="font-bold accent-color mb-2">注目トピック</h3>
-                <p class="text-sm leading-relaxed">「大学の研究室」のような知的で静かな熱量を持つプロ集団。フルリモート体制で運営される150名規模のエンジニア組織において、初めての「人事マネージャー」として、評価制度の再設計や採用体制の構築をリードできます。</p>
+                <p class="text-sm leading-relaxed">初の「専任人事マネージャー」としての採用です。代表依存の採用体制から脱却し、評価制度の再設計・運用をリード。静かな熱量を持った組織を、上場に向けて仕組み化していくフェーズです。</p>
             </div>
 
             <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 mb-8">
                 <h3 class="font-bold border-b pb-2 mb-4">代表プロフィール</h3>
                 <p class="font-bold mb-2">代表取締役CEO　下野 祐太 氏</p>
-                <p class="text-sm text-gray-600 leading-relaxed">京大大学院卒、松尾研究所出身。Forbes JAPAN 30 UNDER 30 2025選出。自らデモ開発も担う技術志向のCEOです。</p>
+                <p class="text-sm text-gray-600 leading-relaxed">京大大学院卒、松尾研究所出身。Forbes JAPAN 30 UNDER 30 2025選出。自らデモ開発やコーディングも担う技術派経営者です。</p>
             </div>
 
             <div class="job-section mb-8">
                 <h3 class="text-xl font-bold mb-4">JOB：人事マネージャー</h3>
-                <div class="text-sm text-gray-600">専任人事の不在による課題解決。納得感のある評価制度の再設計と、代表依存からの脱却を目指す持続可能な採用戦略の構築。</div>
+                <div class="text-sm text-gray-600">評価制度の再設計、納得感のある運用フローの確立。今後の組織拡大を見据えた持続可能な採用戦略とプロセスの構築を担います。</div>
             </div>
 
-            <div class="flex flex-wrap gap-4">
-                <a href="https://www.emuniinc.jp/" target="_blank" class="bg-gray-200 hover:bg-gray-300 text-gray-800 py-2 px-4 rounded text-sm font-bold transition">企業公式サイト</a>
+            <div class="space-y-3">
+                <p class="text-sm font-bold text-gray-500 uppercase tracking-tighter">関連リンク・資料</p>
+                <div class="flex flex-wrap gap-3">
+                    <a href="https://www.emuniinc.jp/" target="_blank" class="link-button">企業サイト・会社概要</a>
+                </div>
             </div>
         </section>
 
